@@ -1,0 +1,235 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x12 J?
+U 1 1 5AE9FAE6
+P 4950 1800
+F 0 "J?" H 4950 2400 50  0000 C CNN
+F 1 "ArduinoPins" H 4950 1100 50  0000 C CNN
+F 2 "" H 4950 1800 50  0001 C CNN
+F 3 "" H 4950 1800 50  0001 C CNN
+	1    4950 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x12 J?
+U 1 1 5AE9FB34
+P 5550 1800
+F 0 "J?" H 5550 2400 50  0000 C CNN
+F 1 "DigitalPins" H 5550 1100 50  0000 C CNN
+F 2 "" H 5550 1800 50  0001 C CNN
+F 3 "" H 5550 1800 50  0001 C CNN
+	1    5550 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L AD8620 U?
+U 1 1 5AE9FB7D
+P 3600 2350
+F 0 "U?" H 3600 2550 50  0000 L CNN
+F 1 "AD8620" H 3600 2150 50  0000 L CNN
+F 2 "" H 3600 2350 50  0001 C CNN
+F 3 "" H 3600 2350 50  0001 C CNN
+	1    3600 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x08 J?
+U 1 1 5AE9FBD4
+P 1600 2300
+F 0 "J?" H 1600 2700 50  0000 C CNN
+F 1 "AirflowSensor" H 1600 1800 50  0000 C CNN
+F 2 "" H 1600 2300 50  0001 C CNN
+F 3 "" H 1600 2300 50  0001 C CNN
+	1    1600 2300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Conn_01x03 J?
+U 1 1 5AE9FC19
+P 2200 850
+F 0 "J?" H 2200 1050 50  0000 C CNN
+F 1 "-12, gnd, 12" H 2200 650 50  0000 C CNN
+F 2 "" H 2200 850 50  0001 C CNN
+F 3 "" H 2200 850 50  0001 C CNN
+	1    2200 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE9FCFB
+P 2900 2250
+F 0 "R?" V 2980 2250 50  0000 C CNN
+F 1 "10k" V 2900 2250 50  0000 C CNN
+F 2 "" V 2830 2250 50  0001 C CNN
+F 3 "" H 2900 2250 50  0001 C CNN
+	1    2900 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE9FD40
+P 2900 2450
+F 0 "R?" V 3000 2450 50  0000 C CNN
+F 1 "10k" V 2900 2450 50  0000 C CNN
+F 2 "" V 2830 2450 50  0001 C CNN
+F 3 "" H 2900 2450 50  0001 C CNN
+	1    2900 2450
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE9FD69
+P 3150 2750
+F 0 "R?" V 3230 2750 50  0000 C CNN
+F 1 "2M" V 3150 2750 50  0000 C CNN
+F 2 "" V 3080 2750 50  0001 C CNN
+F 3 "" H 3150 2750 50  0001 C CNN
+	1    3150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE9FDA3
+P 3550 1900
+F 0 "R?" V 3630 1900 50  0000 C CNN
+F 1 "2M" V 3550 1900 50  0000 C CNN
+F 2 "" V 3480 1900 50  0001 C CNN
+F 3 "" H 3550 1900 50  0001 C CNN
+	1    3550 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE9FE69
+P 2600 1850
+F 0 "R?" V 2680 1850 50  0000 C CNN
+F 1 "24.9k" V 2600 1850 50  0000 C CNN
+F 2 "" V 2530 1850 50  0001 C CNN
+F 3 "" H 2600 1850 50  0001 C CNN
+	1    2600 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5AE9FEAB
+P 2350 1850
+F 0 "R?" V 2430 1850 50  0000 C CNN
+F 1 "24.9k" V 2350 1850 50  0000 C CNN
+F 2 "" V 2280 1850 50  0001 C CNN
+F 3 "" H 2350 1850 50  0001 C CNN
+	1    2350 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 1900 3900 2350
+Wire Wire Line
+	3700 1900 3900 1900
+Connection ~ 3150 2250
+Wire Wire Line
+	3150 1900 3400 1900
+Wire Wire Line
+	3150 2250 3150 1900
+Connection ~ 3150 2450
+Wire Wire Line
+	3150 2450 3150 2600
+Connection ~ 2200 2000
+Wire Wire Line
+	2200 2900 4500 2900
+Wire Wire Line
+	3050 2450 3300 2450
+Wire Wire Line
+	3050 2250 3300 2250
+Connection ~ 2600 2450
+Wire Wire Line
+	2600 2450 2750 2450
+Connection ~ 2250 2100
+Wire Wire Line
+	2250 2250 2750 2250
+Wire Wire Line
+	2250 2100 2250 2250
+Wire Wire Line
+	2600 2700 2600 2000
+Wire Wire Line
+	1800 2700 2600 2700
+Wire Wire Line
+	2350 2100 2350 2000
+Wire Wire Line
+	1800 2100 2350 2100
+Connection ~ 2600 1050
+Wire Wire Line
+	2600 1050 2600 1700
+Connection ~ 2350 1050
+Wire Wire Line
+	2350 1050 2350 1700
+Wire Wire Line
+	3500 1050 3500 2050
+Wire Wire Line
+	2300 1050 3500 1050
+Wire Wire Line
+	3500 3200 3500 2650
+Wire Wire Line
+	2100 3200 3500 3200
+Wire Wire Line
+	2100 1050 2100 3200
+Wire Wire Line
+	2200 2000 1800 2000
+Wire Wire Line
+	2200 1050 2200 2900
+Wire Wire Line
+	3900 2350 4350 2350
+Wire Wire Line
+	4350 2350 4350 1600
+Wire Wire Line
+	4350 1600 4750 1600
+Wire Wire Line
+	4750 2300 4500 2300
+Wire Wire Line
+	4500 2300 4500 2900
+Connection ~ 3150 2900
+$EndSCHEMATC
